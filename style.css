@@ -1,14 +1,14 @@
 .buttonLabels {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .buttonRow {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -27,6 +27,11 @@ img {
     color: white;
 }
 
+.statLabel {
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
 .socBut {
     width: fit-content;
     padding: 20px 20px 20px 20px;
@@ -39,6 +44,8 @@ img {
     padding: 20px 20px 20px 20px;
     border-radius: 12px;
     background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .histBut {
@@ -46,6 +53,16 @@ img {
     padding: 20px 20px 20px 20px;
     border-radius: 12px;
     background-color: #397ae3;
+}
+
+.bioFormat {
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 12px;
+    background-color: gray;
 }
 
 img:hover {
