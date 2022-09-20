@@ -93,25 +93,57 @@ img {
 .earlyForm {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.earlyText {
+    border: solid;
+    width: 500px;
+    padding: 12px 12px 12px 12px;
+    color: black;
+    background-color: lightcoral;
 }
 
 .collegeForm {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.collegeText {
+    border: solid;
+    width: 500px;
+    padding: 12px 12px 12px 12px;
+    color: black;
+    background-color: lightsalmon;
 }
 
 .minorsForm {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.minorsText {
+    border: solid;
+    width: 500px;
+    padding: 12px 12px 12px 12px;
+    color: black;
+    background-color: lightgreen;
 }
 
 .majorsForm {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.majorsText {
+    border: solid;
+    width: 500px;
+    padding: 12px 12px 12px 12px;
+    color: black;
+    background-color: lightskyblue;
 }
 
 .img2 {
